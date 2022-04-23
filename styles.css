@@ -1,0 +1,35 @@
+.menu {
+  /* adicione o código correto para colocar o menu corretamente.*/
+
+  background-color: rgb(164, 4, 132);
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serifs;
+  font-weight: 400;
+  color: rgb(238, 132, 234);
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  background-color: whitesmoke;
+}
+.grid {
+  /* adicione o código correto para colocar os elementos da grade
+  um ao lado do outro igualmente.   */
+
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
